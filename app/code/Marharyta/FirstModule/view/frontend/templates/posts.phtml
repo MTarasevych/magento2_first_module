@@ -16,6 +16,8 @@
     <th>Created At</th>
   </tr>
     <?php
+        
+        // Display posts table
         foreach ($block->getPostCollection() as $key=>$post)
         {
           echo '<tr>
@@ -26,6 +28,9 @@
                   <td>'.$post->getCreatedAt().'</td>
                 </tr>';
         }
+
+        // Display event text
+        echo $block->getEventText();
     ?>
 </table>
 

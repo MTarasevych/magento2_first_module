@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="marharyta_firstmodule_display_event_text">
+        <observer name="firstmodule_event_text" instance="Marharyta\FirstModule\Observer\ChangeDisplayText" />
+    </event>
+</config>
